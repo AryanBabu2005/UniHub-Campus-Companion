@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "190995422528",
+    "project_id": "academix-531c3",
+    "storage_bucket": "academix-531c3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190995422528:android:3139aefbb40e7993c16ea5",
+        "android_client_info": {
+          "package_name": "com.babuaryan.UniHub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190995422528-acs1aaeiti1mi60nkg720pmcujp45ub2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABI2w686tQo4xQ5PUae6ZmV3qvM2SHRJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190995422528-acs1aaeiti1mi60nkg720pmcujp45ub2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
