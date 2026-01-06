@@ -1,50 +1,91 @@
-# Welcome to your Expo app 👋
+# 🎓 UniHub: All-in-One Campus Companion
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![UniHub Banner](assets/images/icon.jpg)
 
-## Get started
+> **Status:** Active Development 🚀  
+> **Tech Stack:** React Native (Expo), Firebase, Node.js
 
-1. Install dependencies
+##  Overview
+**UniHub** is a comprehensive mobile ecosystem designed to bridge the gap between academic rigor and student life. It replaces fragmented tools (WhatsApp, ERP portals, PDFs) with a single, intelligent platform.
 
-   ```bash
-   npm install
-   ```
+Built to solve the "Fragmented Academic Experience," UniHub unifies **Smart Attendance**, **Real-time Analytics**, and **Campus Community** into one seamless interface.
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+##  App Interface
+*(A visual walkthrough of the user experience)*
 
-In the output, you'll find options to open the app in a
+| **Login & Onboarding** | **Student Dashboard** |
+|:---:|:---:|
+| <img src="assets/screenshots/login.png" width="250" /> | <img src="assets/screenshots/dashboard.png" width="250" /> |
+| *Secure Role-Based Entry* | *Real-time Attendance Analytics* |
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+| **Faculty Tools** | **Profile & Menu** |
+|:---:|:---:|
+| <img src="assets/screenshots/attendance.png" width="250" /> | <img src="assets/screenshots/profile.png" width="250" /> |
+| *Offline-First Attendance Marking* | *User Management* |
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+##  Key Features
 
-When you're ready, run:
+###  For Students
+* **Smart Dashboard:** Visual "Hero Charts" for immediate attendance health checks.
+* **Academic Hub:** Centralized repository for Notes, PYQs, and Syllabus.
+* **Chill Zone:** Integrated entertainment hub for mental well-being and campus events.
 
-```bash
-npm run reset-project
-```
+###  For Faculty
+* **Digital Attendance:** Mark credit-based attendance (hourly/session-wise) with **Offline Mode** support.
+* **Broadcast System:** One-tap announcements to specific batches/sections.
+* **Automated Reports:** Generate and export CSV attendance sheets instantly.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+##  Technical Architecture
 
-To learn more about developing your project with Expo, look at the following resources:
+This project utilizes a modern, scalable stack:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+* **Frontend:** React Native (Expo) for cross-platform performance.
+* **Backend:** Firebase Firestore (NoSQL) for real-time data syncing.
+* **Auth:** Firebase Authentication (Secure Email/Password).
+* **Offline Logic:** Local caching strategies to support low-connectivity zones.
+* **Visualization:** `react-native-chart-kit` for analytics graphs.
+* **File I/O:** `expo-file-system` & `expo-sharing` for generating CSV reports.
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+##  Installation & Setup
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+1.  **Clone the Repository**
+    ```bash
+    git clone [https://github.com/YOUR_USERNAME/UniHub.git](https://github.com/YOUR_USERNAME/UniHub.git)
+    cd UniHub
+    ```
+
+2.  **Install Dependencies**
+    ```bash
+    npm install
+    ```
+
+3.  **Configure Firebase**
+    * Create a project on [Firebase Console](https://console.firebase.google.com/).
+    * Add your `google-services.json` (Android) to the root directory.
+    * Enable **Firestore**, **Authentication**, and **Storage**.
+
+4.  **Run the App**
+    ```bash
+    npx expo start
+    ```
+
+---
+
+##  Future Roadmap
+* **AI Integration:** Predictive models for attendance trends.
+* **Gamification:** Badges and leaderboards for academic consistency.
+* **Alumni Connect:** Networking module for mentorship.
+
+---
+
+##  Contributor
+* **Aryan Babu**
+* *Mentor: Dr. Harendra Pal Singh*
