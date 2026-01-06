@@ -2,14 +2,14 @@
   "project_info": {
     "project_number": "190995422528",
     "project_id": "academix-531c3",
-    "storage_bucket": "academix-531c3.firebasestorage.app"
+    "storage_bucket": "YOUR-BUCKET"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:190995422528:android:3139aefbb40e7993c16ea5",
         "android_client_info": {
-          "package_name": "com.babuaryan.UniHub"
+          "package_name": ".com.companyname.app"
         }
       },
       "oauth_client": [
@@ -20,7 +20,7 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyABI2w686tQo4xQ5PUae6ZmV3qvM2SHRJc"
+          "current_key": "YOUR-API-KEY"
         }
       ],
       "services": {
